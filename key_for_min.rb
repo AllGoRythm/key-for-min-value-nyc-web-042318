@@ -3,12 +3,11 @@
 require "pry"
 
 def key_for_min_value(name_hash)
+  new_array = []
 
   name_hash.each do |key, value|
-    binding.pry
-    if key && value == 0
-      nil
-    end  
+    if key[i]
+      
   end
 
 end
