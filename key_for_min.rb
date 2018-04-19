@@ -3,14 +3,8 @@
 
 def key_for_min_value(name_hash)
 
-  name_hash.each do |key,value|
-
-    if key.length && value.length == 0
-      nil
-    else
-
-    end
-
+  name_hash.collect do |name_key, name_value|
+    
   end
 
 
