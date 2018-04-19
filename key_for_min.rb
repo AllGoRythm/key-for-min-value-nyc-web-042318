@@ -4,7 +4,9 @@
 def key_for_min_value(name_hash)
 
   name_hash.collect do |name_key, name_value|
-    
+    if name_value.length == 0
+      nil
+    end
   end
 
 
